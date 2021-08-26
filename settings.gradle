@@ -1,0 +1,4 @@
+rootProject.name = "ComPoint"
+include ':app'
+include ':CustomRecycler'
+include ':FlowLayout'

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="HistoryFlowLayout">
+        <attr name="xw_flow_AverageInRow" format="boolean"/>
+        <attr name="xw_flow_AverageInColum" format="boolean"/>
+        <attr name="xw_max_lines" format="integer"/>
+        <attr name="xw_stroke_color" format="color"/>
+        <attr name="xw_text_color" format="color"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchHistoryActivity">
+<!--    android:background="@color/black"-->
+
+    <com.xw.flowlayout.HistoryFlowLayout
+        android:id="@+id/flowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:xw_flow_AverageInColum="true"
+        app:xw_flow_AverageInRow="false"
+        app:xw_stroke_color="#19A1DF"
+        app:xw_text_color="#333333"
+        app:xw_max_lines="8"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        />
+
+</FrameLayout>
