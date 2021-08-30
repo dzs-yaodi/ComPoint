@@ -7,6 +7,7 @@ import com.xw.compoint.echelon.EchelonActivity;
 import com.xw.compoint.gallery.GalleryActivity;
 import com.xw.compoint.horizontal.HorizontalActivity;
 import com.xw.compoint.slide.SlideActivity;
+import com.xw.compoint.video.VideoActivity;
 import com.xw.compoint.viewpager.ViewPagerManagerActivity;
 
 public class JumpUtils {
@@ -27,6 +28,8 @@ public class JumpUtils {
             intent.setClass(context, ViewPagerManagerActivity.class);
         } else if (position == 5) {
             intent.setClass(context,SearchHistoryActivity.class);
+        } else if (position == 6) {
+            intent.setClass(context, VideoActivity.class);
         }
 
         context.startActivity(intent);
